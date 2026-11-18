@@ -1,0 +1,29 @@
+{
+  "target": "127.0.0.1",
+  "protocol": "tcp",
+  "timestamp": "2026-11-18T23:01:50+05:30",
+  "duration_seconds": 0.5190339000000677,
+  "results": [
+    {
+      "port": 22,
+      "protocol": "tcp",
+      "state": "filtered",
+      "service": "ssh",
+      "banner": ""
+    },
+    {
+      "port": 80,
+      "protocol": "tcp",
+      "state": "filtered",
+      "service": "http",
+      "banner": ""
+    },
+    {
+      "port": 8000,
+      "protocol": "tcp",
+      "state": "filtered",
+      "service": "unknown",
+      "banner": ""
+    }
+  ]
+}
